@@ -1,0 +1,49 @@
+/**
+* @author    Caspar Armster
+* @copyright 2016 Caspar Armster, Freifunk Hennef
+* @license   Licensed under GPLv3
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#555555;
+}
+
+.panel-default > .panel-heading {
+    background-color: #111;
+    color: #fff;
+}
+.panel-footer {
+	font-size: 80%;
+}
+
+.btn {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #dc0067 !important;
+    border-color: #cc0057 !important;
+}
+
+.img-box {
+    height: 175px;
+    width: 175px;
+    object-fit: contain;
+    margin: 5px;
+}
+
+.logo-box {
+    height: 200px;
+    width: 400px;
+    object-fit: contain;
+    margin: 5px;
+}
+
+@media (min-width: 1200px) {
+    .container{
+    	width:auto;
+        max-width: 1550px;
+    }
+}
