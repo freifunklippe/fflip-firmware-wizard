@@ -1,17 +1,17 @@
-Freifunk Lippe Firmware Downloader
+Freifunk Lippe Firmware Wizard
 ===================================
 
 Beschreibung
 ------------
 
-Der Freifunk Lippe Firmware Downloader soll es Laien ermöglichen schneller und sicherer die zu ihrem Router passende Firmware zu finden. Der Freifunker kann nacheinander aus automatisch generierten Listen seinen Router auswählen: Hersteller -> Modell -> Version und dann festlegen ob es eine Erstinstallation ist oder nicht, sowie am Ende wählen welches Entwicklungsstadium die Firmware haben soll. Dabei wird automatisch gewarnt (Download Button verändert die Farbe) falls nicht "stable" ausgewählt wird. Zusätzlich werden etliche der Router auch als Grafik (Front & Back Ansicht) gezeigt, so dass der Freifunker auf den ersten Blick erkennen kann wenn er den falschen Router ausgewählt hat. Einmal anschauen kann man sich den Firmware Downlaoder unter http://images.freifunk-hennef.de/downloader/.
+Der Freifunk Lippe Firmware Wizard soll es Laien ermöglichen schneller und sicherer die zu ihrem Router passende Firmware zu finden. Der Freifunker kann nacheinander aus automatisch generierten Listen seinen Router auswählen: Hersteller -> Modell -> Version und dann festlegen ob es eine Erstinstallation ist oder nicht, sowie am Ende wählen welches Entwicklungsstadium die Firmware haben soll. Dabei wird automatisch gewarnt (Download Button verändert die Farbe) falls nicht "stable" ausgewählt wird. Zusätzlich werden etliche der Router auch als Grafik (Front & Back Ansicht) gezeigt, so dass der Freifunker auf den ersten Blick erkennen kann wenn er den falschen Router ausgewählt hat. Einmal anschauen kann man sich den Firmware Downlaoder unter http://wizard.freifunk-lippe.de/.
 
-Der Freifunk Hennef Firmware Downloader kann auch mit Metacommunities umgehen, bei der, vor der Auswahl der eigentlichen Firmware, noch eine Auswahl der Community/Subcommunity oder Technologie auszuwählen ist. Als Beispiel kann hier die Metacommunity Rhein-Sieg dienen, unter http://downloader.freifunk-rhein-sieg.de/ könnt ihr euch das anschauen.
+Der Freifunk Lippe Firmware Wizard kann auch mit Metacommunities umgehen, bei der, vor der Auswahl der eigentlichen Firmware, noch eine Auswahl der Community/Subcommunity oder Technologie auszuwählen ist. Als Beispiel kann hier die Metacommunity Freifunk Lippe dienen, unter http://wizard.freifunk-lippe.de/ könnt ihr euch das anschauen.
 
 Technik
 -------
 
-Der Freifunk Hennef Firmware Downloader erzeugt auf Grund der angegebenen Metadaten in der community-config.inc.php eine Auswahlseite für die Metacommunity (oder bei nur einer vorhandenen Community Konfiguration überspringt er diese Vorauswahl). Nach der Auswahl der Community (plus optionaler Subauswahl) erscheint der Link der zum eigentlichen Firmware Downloader führt. Der Freifunk Hennef Firmware Downloader scannt dann das in der community-config.inc.php angegebene Verzeichnis auf Firmwares in den Unterverzeichnissen (beta/broken/experimental/stable) und dort in (factory/sysupgrade). Aus dem Ergebnis baut das PHP Script ein interaktives Javascript für die Auswahl und verwendet dabei Bootstrap für das Layout.
+Der Freifunk Lippe Firmware Wizard erzeugt auf Grund der angegebenen Metadaten in der community-config.inc.php eine Auswahlseite für die Metacommunity (oder bei nur einer vorhandenen Community Konfiguration überspringt er diese Vorauswahl). Nach der Auswahl der Community (plus optionaler Subauswahl) erscheint der Link der zum eigentlichen Firmware Downloader führt. Der Freifunk Hennef Firmware Downloader scannt dann das in der community-config.inc.php angegebene Verzeichnis auf Firmwares in den Unterverzeichnissen (beta/broken/experimental/stable) und dort in (factory/sysupgrade). Aus dem Ergebnis baut das PHP Script ein interaktives Javascript für die Auswahl und verwendet dabei Bootstrap für das Layout.
 
 Bisher werden Router der folgenden Hersteller automatisch erkannt:
 
@@ -43,7 +43,7 @@ Die Bilder der Router kommen von Daniel Krah und sind lizensiert unter einer Cre
 Installation
 ------------
 
-Den Freifunk Hennef Firmware Downloader in ein eigenes Unterverzeichnis des Webservers kopieren/entpacken, auf dem auch die Firmwares liegen. In der community-config.inc.php werden dann diverse Variablen gesetzt:
+Den Freifunk Lippe Firmware Wizard in ein eigenes Unterverzeichnis des Webservers kopieren/entpacken, auf dem auch die Firmwares liegen. In der community-config.inc.php werden dann diverse Variablen gesetzt:
 
 - $texte ist das Array mit den einzelnen Überschriften/Texten für die Auswahlstufen
 - $community ist das Array mit den Metadaten für die Metacommunity und die einzelnen Subcommunites. Wenn hier nur eine Community angegeben wird wird die Communtiyauswahl übersprungen und direkt auf die Firmware Downloader Seite verwiesen.
