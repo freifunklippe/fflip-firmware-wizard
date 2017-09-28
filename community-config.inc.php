@@ -1,7 +1,7 @@
 <?php
 /**
 * @author    Caspar Armster
-* @copyright 2016 Caspar Armster, Freifunk Hennef/Freie Netzwerker e.V. (www.freifunk-hennef.de / www.freie-netzwerker.de)
+* @copyright 2016 Caspar Armster, Freifunk Hennef/Freie Netzwerker e.V./Freifunk Lippe (www.freifunk-hennef.de / www.freie-netzwerker.de / https://freifunk-lippe.de)
 * @license   Licensed under GPLv3
 */
 
@@ -294,7 +294,7 @@
             "community_id" => 18,
             "name" => "Nach Netzwerk-Domänen",
             "head_titel" => "Nach Netzwerk-Domänen",
-            "head_text" => "Auf dieser Seite kannst Du die passende Firmware für deinen Router in Lippe auswählen und herunterladen!!",
+            "head_text" => "Auf dieser Seite kannst Du die passende Firmware für deinen Router in Lippe auswählen und herunterladen!",
             "link_text" => "Zurück zur Startseite",
             "link_url" => "http://firmware-wizard.freifunk-lippe.de/",
             "logo_alt" => "Freifunk Lippe Logo",
