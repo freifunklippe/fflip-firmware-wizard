@@ -162,7 +162,7 @@ if (count($community) == 1) {
 
             <footer>
                 <div class="col-xs-12 text-muted text-center">
-                    <p>Licensed under GPLv3 / Copyright 2016 by Caspar Armster, <a href="http://www.freifunk-hennef.de/">Freifunk Hennef</a> / <a href="http://www.freie-netzwerker.de/">Freie Netzwerker e.V.</a></p>
+                    <p>Licensed under GPLv3 / Copyright 2016 by Caspar Armster, <a href="http://www.freifunk-hennef.de/">Freifunk Hennef</a> / <a href="http://www.freie-netzwerker.de/">Freie Netzwerker e.V.</a><a href="https://freifunk-lippe.de/">Freifunk Lippe</a></p>
                 </div>
             </footer>
         </div>
