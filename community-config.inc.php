@@ -48,7 +48,7 @@
             "logo_alt" => "Freifunk Lippe Logo",
             "logo_url" => "images/FF-Lippe-Hermann-Slim-11.2-reduced.png",
             "lang_titel" => "Freifunk Lippe Firmware",
-            "lang_text" => "Bitte wähle zuerst die 'Suchmethode' aus. Du kannst zwischen dem Standard 'Nach Ortsnamen' und für Fortgeschrittene 'Nach Netzwerk-Domänen' wählen.<br /> Unter 'Auswahl Ort/Domäne' kannst du dann weiter fortfahren.<br /><br />Die gewählte Suchmethode macht keinen Unterschied zur Firmware, es ist lediglich eine andere Gliederung.",
+            "lang_text" => "Bitte wähle zuerst die 'Suchmethode' aus. Du kannst zwischen dem Standard 'Nach Ortsnamen' und für Fortgeschrittene 'Nach Netzwerk-Domänen' wählen.<br /> Unter 'Auswahl Ort/Domäne' kannst du dann weiter fortfahren.<br /><br />Die gewählte Suchmethode macht keinen Unterschied zur Firmware, es ist lediglich eine andere Gliederung.<br /><br />Solltest Du Deinen Ort in der Liste nicht finden können, so wähle bitte einfach den nächstgelegenen Ort aus.",
             "download_path" => "",
             "sub_auswahl" => ""
         ),
